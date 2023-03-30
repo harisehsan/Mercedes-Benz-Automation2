@@ -1,0 +1,2 @@
+The Lowest price is: £34,500
+The Highest price is: £41,890
