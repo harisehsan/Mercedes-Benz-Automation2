@@ -22,7 +22,7 @@ Method 3: Execution by Running the RunTest.java file
 
 •	Install IntelliJ or any other java IDE and Open project that in IDE
 
-•	Go to the file in the directory "<project repository>\src\test\java\runConfig"
+•	Go to the directory "<project repository>\src\test\java\runConfig"
 
 •	Right click on the “RunTest.java” file --> select Run (In that case report will not generated.)
 
