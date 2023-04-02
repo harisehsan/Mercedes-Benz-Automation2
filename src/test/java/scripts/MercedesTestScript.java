@@ -97,7 +97,7 @@ public class MercedesTestScript extends Base {
                    }
                }
           } catch (Exception ignored) {
-               System.out.println("External loop"+ignored.getMessage());
+             
            }
        } while (!build_your_car_flag && tries < convertToInteger(scriptGetProperty.maxTries()));
        return build_your_car_flag;
