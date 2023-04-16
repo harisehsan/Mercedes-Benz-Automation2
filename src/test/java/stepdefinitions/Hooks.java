@@ -91,6 +91,7 @@ public class Hooks extends BaseUtil {
         System.setProperty(hooksGetProperty.edgeDriver(), hooksGetProperty.edgeDriverPath());
         EdgeOptions options = new EdgeOptions();
         options.addArguments(hooksGetProperty.edgeDriverOptions());
+        options.addArguments(hooksGetProperty.remoteAllowOrigin());
         driver = new EdgeDriver(options);
     }
 }
